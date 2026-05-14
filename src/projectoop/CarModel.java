@@ -3,18 +3,13 @@ package projectoop;
 public class CarModel {
     static void main() {
 
-        Car bmw = new Car();
-        bmw.getModel("Beemer");
-        bmw.getTransmission("Mechanic");
-        bmw.getColor("Qora");
-        bmw.getPrice("$50.000");
+        Car car1 = new Car("X5 ", "Qora " , "Mechanic ", 50000);
+        Car car2 = new Car("SLS ", "Kumuwrang ","Automatic ", 45000);
 
-        IO.println();
+        IO.println("BMW ni detal'lari:");
+        car1.carModel();
 
-        Car merc =  new Car();
-        merc.getModel("Star");
-        merc.getTransmission("Automatic");
-        merc.getColor("Kumuw");
-        merc.getPrice("$45.000");
+        IO.println("Merc ni detal'lari:");
+        car2.carModel();
     }
 }
