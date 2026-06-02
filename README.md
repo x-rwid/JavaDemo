@@ -28,7 +28,7 @@ Ensure you have the following tools configured locally before running any of the
 
 * **Language Version:** Java SE 17 or higher.
 * **Build Tool:** Optional (Plain Java files or Maven/Gradle if implemented).
-* **Recommended IDE:** [IntelliJ IDEA Community Edition](https://jetbrains.com) or any.
+* **Recommended IDE:** [IntelliJ IDEA](https://jetbrains.com) or any.
 
 ## 🚀 Getting Started
 
