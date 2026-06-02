@@ -43,15 +43,15 @@ cd JavaDemo
 ### Run via Command Line
 1. Navigate into the specific project directory:
    ```bash
-   cd 01-car-models
+   cd 01-car-model
    ```
 2. Compile the source Java file:
    ```bash
-   javac Main.java
+   javac CarModel.java
    ```
 3. Execute the compiled bytecode:
    ```bash
-   java Main
+   java CarModel
    ```
 
 ### Run via IDE (IntelliJ IDEA / any)
