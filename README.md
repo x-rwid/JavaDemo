@@ -6,19 +6,19 @@ A organized collection of small, standalone Java projects built to practice and 
 
 This repository tracks my progress from foundational syntax to intermediate application architecture.
 
-### 1. 🔢 Car Models
+### 1. 🚗 Car Models
 * **Concepts Learned:** Object-Oriented Programming (Classes, Objects, Encapsulation with private variables, and custom constructors).
 * **Interface:** Console menu.
 
-### 2. 📝 Triangle Shape
+### 2. 📐 Triangle Shape
 * **Concepts Learned:** Object-Oriented Programming (Classes, Objects, Encapsulation with private variables, and custom constructors).
 * **Interface:** Console menu.
 
-### 3. 🏦 Person ID
+### 3. 🆔 Person ID
 * **Concepts Learned:** Object-Oriented Programming (Classes, Objects, Encapsulation with private variables, and custom constructors).
 * **Interface:** Console menu.
 
-### 4. 🧮 Point Vector
+### 4. 🔴 Point Vector
 * **Concepts Learned:** Object-Oriented Programming (Classes, Objects, Encapsulation with private variables, and custom constructors).
 * **Interface:** Console menu.
 
