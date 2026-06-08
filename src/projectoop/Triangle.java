@@ -2,15 +2,17 @@ package projectoop;
 
 public class Triangle {
 
+    // encupsulation: be vasita kiriwni ceklaw ucun field'lar maxfiy
     private double base;
     private double height;
     private double hypotenuse;
 
+    // constructor: object tuzilganda attribute'larni iwga tuwiriw ucun
     public Triangle(double base, double height) {
         setSides(base, height);
     }
 
-
+    // setter method'lar: encapsulation'ni amalga owiriw va riyaziyat ceklovlarni saqlab qoliw ucun
     public void setSides(double base, double height) {
         if (base <= 0 || height <= 0) {
             throw new IllegalArgumentException("Ucburcakni tomonlari 0 dan katta bo'liwi kerak");
@@ -20,12 +22,12 @@ public class Triangle {
         this.hypotenuse = Math.sqrt((base * base) + (height * height));
     }
 
-
+    // getter method'lar: attribute'larga nazorot qilinadigan kiriw ucun
     public double getBase() {return base;}
     public double getHeight() {return height;}
     public double getHypotenuse() {return hypotenuse;}
 
-
+    // maydon method'lari
     public double getArea() {
         return 0.5 * this.base * this.height;
     }
@@ -42,7 +44,7 @@ public class Triangle {
         return 0.5 * a * b;
     }
 
-
+    // hudud method'lari
     public double getPerimeter() {
         return this.base + this.height + this.hypotenuse;
     }
