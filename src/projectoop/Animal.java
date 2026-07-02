@@ -1,18 +1,16 @@
 package projectoop;
 
-public class Animal {
+public abstract class Animal {
 
-    private String nome;
+    private String name;
 
-    public Animal(String nome) {
-        this.nome = nome;
+    public Animal(String name) {
+        this.name = name;
     }
 
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return this.name;
     }
 
-    public void sound() {
-        IO.println("Hayvanlar ovozi");
-    }
+    public abstract void sound();
 }

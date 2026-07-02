@@ -3,17 +3,17 @@ package projectoop;
 public class AnimalTest {
     static void main() {
 
-        Animal myDog = new AnimalDog("Balto");
-        Animal myCat = new AnimalCat("Etik Kiygan Muwuk");
-        Animal myDuck = new AnimalDuck("Scrooge McDuck");
+        Animal dog = new AnimalDog("Balto");
+        Animal cat = new AnimalCat("Etik Kiygan Muwuk");
+        Animal duck = new AnimalDuck("Scrooge McDuck");
 
-        IO.print(myDog.getNome() + " aytadi: " );
-        myDog.sound();
+        IO.print(dog.getName() + " aytadi: " );
+        dog.sound();
 
-        IO.print(myCat.getNome() + " aytadi: " );
-        myCat.sound();
+        IO.print(cat.getName() + " aytadi: " );
+        cat.sound();
 
-        IO.print(myDuck.getNome() + " aytadi: " );
-        myDuck.sound();
+        IO.print(duck.getName() + " aytadi: " );
+        duck.sound();
     }
 }
