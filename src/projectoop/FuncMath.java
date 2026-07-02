@@ -1,11 +1,11 @@
 package projectoop;
 
-public class MathFunctions {
+public class FuncMath {
 
     private static double pi;
     private static double e;
 
-    public MathFunctions(double piValue, double eValue) {
+    public FuncMath(double piValue, double eValue) {
         pi = piValue;
         e = eValue;
     }
@@ -23,7 +23,7 @@ public class MathFunctions {
     }
 
     static void main() {
-        MathFunctions mathFunctions = new MathFunctions(3.14159265359,2.71828182846);
+        FuncMath mathFunctions = new FuncMath(3.14159265359,2.71828182846);
 
         double radius = 5.0;
         IO.println(radius + " radius aylanasini maydoni: " + mathFunctions.calculateCircleArea(radius));
