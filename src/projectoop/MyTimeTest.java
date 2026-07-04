@@ -33,7 +33,7 @@ public class MyTimeTest {
 
     private static int getValidInput(Scanner scan, String prompt) {
         while (true) {
-            System.out.print(prompt);
+            IO.print(prompt);
             if (scan.hasNextInt()) {
                 return scan.nextInt();
             } else {
